@@ -2,7 +2,7 @@ FROM tomcat:9.0
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY target/your-app.war /usr/local/tomcat/webapps/ROOT.war
+COPY target/your-app.war /usr/local/tomcat/webapps/iphone.war
 
 EXPOSE 8080
 
